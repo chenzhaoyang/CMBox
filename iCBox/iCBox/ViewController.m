@@ -35,4 +35,13 @@
     }
 }
 
+- (IBAction)btnClicked:(id)sender {
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hello"         message:@"Here I come!"
+        delegate:self 
+        cancelButtonTitle:@"OKay"
+    otherButtonTitles:nil];
+        
+    [alert show];
+}
+
 @end

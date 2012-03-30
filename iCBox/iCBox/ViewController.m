@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize txtName;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -22,6 +24,9 @@
 
 - (void)viewDidUnload
 {
+    [self setTxtName:nil];
+    [self setTxtName:nil];
+    [self setTxtName:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -42,6 +47,18 @@
                                           cancelButtonTitle:@"OKay"
                                           otherButtonTitles:nil];
 
+    [alert show];
+}
+
+- (IBAction)btnOkay:(id)sender {
+    NSString* str = [[NSString alloc]initWithFormat:@"Hello, %@", txtName.text];
+    
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Hello"
+                                                    message:str
+                                                   delegate:self 
+                                          cancelButtonTitle:@"OKay"
+                                          otherButtonTitles:nil];
+    
     [alert show];
 }
 

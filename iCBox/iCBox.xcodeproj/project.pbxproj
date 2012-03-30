@@ -18,6 +18,8 @@
 		D56B798A1524EC86001FE92C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D56B79891524EC86001FE92C /* ViewController.m */; };
 		D5DBDE931525273F002EB1D9 /* cmbox57.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE901525273F002EB1D9 /* cmbox57.png */; };
 		D5DBDE941525273F002EB1D9 /* cmbox72.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE911525273F002EB1D9 /* cmbox72.png */; };
+		D5DBDE9B15255F28002EB1D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9915255F28002EB1D9 /* Default.png */; };
+		D5DBDE9C15255F28002EB1D9 /* Default@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9A15255F28002EB1D9 /* Default@x2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		D56B79891524EC86001FE92C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5DBDE901525273F002EB1D9 /* cmbox57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cmbox57.png; sourceTree = "<group>"; };
 		D5DBDE911525273F002EB1D9 /* cmbox72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cmbox72.png; sourceTree = "<group>"; };
+		D5DBDE9915255F28002EB1D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D5DBDE9A15255F28002EB1D9 /* Default@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@x2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		D56B79611524EC86001FE92C = {
 			isa = PBXGroup;
 			children = (
+				D5DBDE9915255F28002EB1D9 /* Default.png */,
+				D5DBDE9A15255F28002EB1D9 /* Default@x2.png */,
 				D56B79761524EC86001FE92C /* iCBox */,
 				D56B796F1524EC86001FE92C /* Frameworks */,
 				D56B796D1524EC86001FE92C /* Products */,
@@ -162,6 +168,8 @@
 				D56B79871524EC86001FE92C /* MainStoryboard_iPad.storyboard in Resources */,
 				D5DBDE931525273F002EB1D9 /* cmbox57.png in Resources */,
 				D5DBDE941525273F002EB1D9 /* cmbox72.png in Resources */,
+				D5DBDE9B15255F28002EB1D9 /* Default.png in Resources */,
+				D5DBDE9C15255F28002EB1D9 /* Default@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

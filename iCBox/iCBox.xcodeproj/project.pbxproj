@@ -20,6 +20,13 @@
 		D5DBDE941525273F002EB1D9 /* cmbox72.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE911525273F002EB1D9 /* cmbox72.png */; };
 		D5DBDE9B15255F28002EB1D9 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9915255F28002EB1D9 /* Default.png */; };
 		D5DBDE9C15255F28002EB1D9 /* Default@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9A15255F28002EB1D9 /* Default@x2.png */; };
+		D5DBDEA315257CF6002EB1D9 /* evening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9D15257CF6002EB1D9 /* evening.jpg */; };
+		D5DBDEA415257CF6002EB1D9 /* eye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDE9E15257CF6002EB1D9 /* eye.jpg */; };
+		D5DBDEA615257CF6002EB1D9 /* Stars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDEA015257CF6002EB1D9 /* Stars.jpg */; };
+		D5DBDEA715257CF6002EB1D9 /* tigger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDEA115257CF6002EB1D9 /* tigger.jpg */; };
+		D5DBDEA815257CF6002EB1D9 /* woo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDEA215257CF6002EB1D9 /* woo.jpg */; };
+		D5DBDEAE15258055002EB1D9 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5DBDEAD15258055002EB1D9 /* ImageViewController.m */; };
+		D5DBDEB01525833A002EB1D9 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D5DBDEAF1525833A002EB1D9 /* girl.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +48,14 @@
 		D5DBDE911525273F002EB1D9 /* cmbox72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cmbox72.png; sourceTree = "<group>"; };
 		D5DBDE9915255F28002EB1D9 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		D5DBDE9A15255F28002EB1D9 /* Default@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@x2.png"; sourceTree = "<group>"; };
+		D5DBDE9D15257CF6002EB1D9 /* evening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = evening.jpg; sourceTree = "<group>"; };
+		D5DBDE9E15257CF6002EB1D9 /* eye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eye.jpg; sourceTree = "<group>"; };
+		D5DBDEA015257CF6002EB1D9 /* Stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Stars.jpg; sourceTree = "<group>"; };
+		D5DBDEA115257CF6002EB1D9 /* tigger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigger.jpg; sourceTree = "<group>"; };
+		D5DBDEA215257CF6002EB1D9 /* woo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = woo.jpg; sourceTree = "<group>"; };
+		D5DBDEAC15258055002EB1D9 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		D5DBDEAD15258055002EB1D9 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		D5DBDEAF1525833A002EB1D9 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +110,8 @@
 				D56B79851524EC86001FE92C /* MainStoryboard_iPad.storyboard */,
 				D56B79881524EC86001FE92C /* ViewController.h */,
 				D56B79891524EC86001FE92C /* ViewController.m */,
+				D5DBDEAC15258055002EB1D9 /* ImageViewController.h */,
+				D5DBDEAD15258055002EB1D9 /* ImageViewController.m */,
 				D56B79771524EC86001FE92C /* Supporting Files */,
 			);
 			path = iCBox;
@@ -103,6 +120,12 @@
 		D56B79771524EC86001FE92C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D5DBDEAF1525833A002EB1D9 /* girl.jpg */,
+				D5DBDE9D15257CF6002EB1D9 /* evening.jpg */,
+				D5DBDE9E15257CF6002EB1D9 /* eye.jpg */,
+				D5DBDEA015257CF6002EB1D9 /* Stars.jpg */,
+				D5DBDEA115257CF6002EB1D9 /* tigger.jpg */,
+				D5DBDEA215257CF6002EB1D9 /* woo.jpg */,
 				D5DBDE901525273F002EB1D9 /* cmbox57.png */,
 				D5DBDE911525273F002EB1D9 /* cmbox72.png */,
 				D56B79781524EC86001FE92C /* iCBox-Info.plist */,
@@ -170,6 +193,12 @@
 				D5DBDE941525273F002EB1D9 /* cmbox72.png in Resources */,
 				D5DBDE9B15255F28002EB1D9 /* Default.png in Resources */,
 				D5DBDE9C15255F28002EB1D9 /* Default@x2.png in Resources */,
+				D5DBDEA315257CF6002EB1D9 /* evening.jpg in Resources */,
+				D5DBDEA415257CF6002EB1D9 /* eye.jpg in Resources */,
+				D5DBDEA615257CF6002EB1D9 /* Stars.jpg in Resources */,
+				D5DBDEA715257CF6002EB1D9 /* tigger.jpg in Resources */,
+				D5DBDEA815257CF6002EB1D9 /* woo.jpg in Resources */,
+				D5DBDEB01525833A002EB1D9 /* girl.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +212,7 @@
 				D56B797D1524EC86001FE92C /* main.m in Sources */,
 				D56B79811524EC86001FE92C /* AppDelegate.m in Sources */,
 				D56B798A1524EC86001FE92C /* ViewController.m in Sources */,
+				D5DBDEAE15258055002EB1D9 /* ImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

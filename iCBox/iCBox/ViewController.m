@@ -25,8 +25,6 @@
 - (void)viewDidUnload
 {
     [self setTxtName:nil];
-    [self setTxtName:nil];
-    [self setTxtName:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
@@ -63,6 +61,21 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSLog(@"%d", buttonIndex);
+}
+
+- (IBAction)btnActionSheet:(id)sender {
+    UIActionSheet *action = 
+    [[UIActionSheet alloc] initWithTitle:@"Title of Action Sheet"
+                                delegate:self
+                       cancelButtonTitle:@"OK"
+                  destructiveButtonTitle:@"Delete Message"
+                       otherButtonTitles:@"Option 1", @"Option 2", nil];
+    [action showInView:self.view];
+}
+
+- (void) actionSheet:(UIActionSheet *)actionSheet
+clickedButtonAtIndex:(NSInteger)buttonIndex{
     NSLog(@"%d", buttonIndex);
 }
 

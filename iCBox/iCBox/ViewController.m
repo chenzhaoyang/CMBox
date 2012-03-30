@@ -45,7 +45,7 @@
                                                     message:@"Here I come!"
                                                    delegate:self 
                                           cancelButtonTitle:@"OKay"
-                                          otherButtonTitles:nil];
+                                          otherButtonTitles:@"Option 1", @"Option 2", nil];
 
     [alert show];
 }
@@ -60,6 +60,10 @@
                                           otherButtonTitles:nil];
     
     [alert show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    NSLog(@"%d", buttonIndex);
 }
 
 @end
